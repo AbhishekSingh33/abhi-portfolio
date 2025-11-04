@@ -65,16 +65,3 @@ const Skills = () => (
 
 export default Skills;
 
-// import React from 'react'
-
-// function Skills() {
-//   return (
-//     <div className='text-center text-cyan-950'>Skills
-//       <div>skill
-//       </div>
-//     </div>
-  
-//   )
-// }
-
-// export default Skills

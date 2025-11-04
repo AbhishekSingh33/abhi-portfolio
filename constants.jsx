@@ -32,6 +32,10 @@ import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import PandasLogo from './assets/data_analyst_logo/pandas_logo.png';
+import NumpyLogo from './assets/data_analyst_logo/numpy.png'
+import MatplotlibLogo from './assets/data_analyst_logo/matplotlib.png'
+import ExcelLogo from './assets/data_analyst_logo/excel.png'
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -53,6 +57,8 @@ import webverLogo from './assets/work_logo/web_dig.png';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
+import PowerBi from './assets/data_analyst_logo/powerbi.png';
+import MachineLearning from './assets/data_analyst_logo/machine.png';
 
 
 export const SkillsInfo = [
@@ -105,9 +111,21 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
       { name: 'Postman', logo: postmanLogo },
       { name: 'Compass', logo: mcLogo },
-      // { name: 'Vercel', logo: vercelLogo },
-      // { name: 'Netlify', logo: netlifyLogo },
-      // { name: 'Figma', logo: figmaLogo },
+      { name: 'Vercel', logo: vercelLogo },
+      { name: 'Netlify', logo: netlifyLogo },
+      { name: 'Figma', logo: figmaLogo },
+    ],
+  },
+  {
+    title: 'Data analysis & Visualization',
+    skills: [
+      { name: 'Pandas', logo: PandasLogo },
+      { name: 'NumPy', logo: NumpyLogo },
+      { name: 'Matplotlib', logo: MatplotlibLogo },
+      { name: 'Excel', logo: ExcelLogo },
+      { name: 'Power BI', logo: PowerBi },
+      { name: 'Machine Learning', logo: MachineLearning },
+      // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
 ];
