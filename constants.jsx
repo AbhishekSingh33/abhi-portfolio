@@ -62,6 +62,7 @@ import PowerBi from './assets/data_analyst_logo/powerbi.png';
 import Machine from './assets/data_analyst_logo/Machine.png';
 import hdfc from './assets/work_logo/CapstoneProject.png'
 import gym from './assets/work_logo/gym.jpeg'
+import Gocart from './assets/work_logo/gocart.png'
 
 
 export const SkillsInfo = [
@@ -250,13 +251,13 @@ export const SkillsInfo = [
     },
     {
       id: 3,
-      title: "Email Validator NPM Package",
+      title: "Ecommerce full Stack website(GO CART)",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: npmLogo,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "https://github.com/codingmastr/cmtk-email-validator",
-      // webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "A comprehensive e-commerce platform built with a MERN stack (MongoDB, Express.js, React.js, Node.js) that allows users to browse products, add them to a cart, and make secure payments.",
+      image: Gocart,
+      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/AbhishekSingh33/gocart-main",
+      webapp: "gocart-main-nine.vercel.app",
     },
     {
       id: 4,
@@ -298,14 +299,5 @@ export const SkillsInfo = [
       github: "https://github.com/AbhishekSingh33",
       // webapp: "https://imagsearch.netlify.app/",
     },
-    {
-      id: 8,
-      title: "Image Background Remover",
-      description:
-        "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-      image: removebgLogo,
-      tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-      github: "https://github.com/AbhishekSingh33",
-      // webapp: "https://github.com/AbhishekSingh33",
-    },
+   
   ];  
