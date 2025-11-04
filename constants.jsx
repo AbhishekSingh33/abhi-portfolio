@@ -247,7 +247,7 @@ export const SkillsInfo = [
       image: gym,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
       github: "https://github.com/AbhishekSingh33/gym-workout-pannel",
-      webapp: "gym-workout-pannel.vercel.app",
+      webapp: "https://gymlife-master-fvdjiyc01-abhishek-singhs-projects-2d3f11ee.vercel.app/",
     },
     {
       id: 3,
