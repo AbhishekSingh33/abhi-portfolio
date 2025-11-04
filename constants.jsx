@@ -54,11 +54,14 @@ import movierecLogo from './assets/work_logo/movie_rec.png';
 import taskremLogo from './assets/work_logo/task_rem.png';
 import npmLogo from './assets/work_logo/npm.png';
 import webverLogo from './assets/work_logo/web_dig.png';
+import Zomato from './assets/work_logo/zomato.jpeg';
 import cmLogo from './assets/work_logo/cm.png';
 import imagesearchLogo from './assets/work_logo/image_search.png';
 import removebgLogo from './assets/work_logo/remove_bg.png';
 import PowerBi from './assets/data_analyst_logo/powerbi.png';
-import MachineLearning from './assets/data_analyst_logo/machine.png';
+import Machine from './assets/data_analyst_logo/Machine.png';
+import hdfc from './assets/work_logo/CapstoneProject.png'
+import gym from './assets/work_logo/gym.jpeg'
 
 
 export const SkillsInfo = [
@@ -124,7 +127,7 @@ export const SkillsInfo = [
       { name: 'Matplotlib', logo: MatplotlibLogo },
       { name: 'Excel', logo: ExcelLogo },
       { name: 'Power BI', logo: PowerBi },
-      { name: 'Machine Learning', logo: MachineLearning },
+      { name: 'Machine Learning', logo: Machine },
       // { name: 'TypeScript', logo: typescriptLogo },
     ],
   },
@@ -217,33 +220,33 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "GitHub Profile Detective",
+      title: "Data-Analyst-Zomato-Project",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-      image: githubdetLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/AbhishekSingh33",
+        "The Zomato Data Analysis Project focuses on exploring, cleaning, and analyzing restaurant data from Zomato to uncover valuable insights about restaurants, cuisines, ratings, pricing, and customer behavior. This project helps in understanding how various factors like location, cuisine type, and cost influence restaurant ratings and customer preferences.",
+      image: Zomato,
+      tags: ["Python", "Pandas", "NumPy", "Matplotlib", "Excel"],
+      github: "https://github.com/AbhishekSingh33/Data-Analyst-zometo-project",
       // webapp: "https://github.com/AbhishekSingh33/",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Hdfc real time capstone project",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
+       "hdfc life real time capstone project with bharatselflearning where I have to provide Dcf statement, Employee data, Ebidta, Ebita and searching for investment forecasting using excel, poerbi, sql & Tableau",
+      image: hdfc,
+      tags: ["Excel", "SQL", "Power BI", "Tableau", "Data Visualization", "Forecasting", "DCF"],
       github: "https://github.com/AbhishekSingh33",
       // webapp: "https://github.com/AbhishekSingh33",
     },
     {
       id: 2,
-      title: "Movie Recommendation App",
+      title: "gym workout pannel",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-      image: movierecLogo,
+        "A React-based web application that provides gym workout plans and tracking features for fitness enthusiasts. Users can customize their workout routines, log their progress, and access a library of exercises with detailed instructions.",
+      image: gym,
       tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/AbhishekSingh33",
-      webapp: "",
+      github: "https://github.com/AbhishekSingh33/gym-workout-pannel",
+      webapp: "gym-workout-pannel.vercel.app",
     },
     {
       id: 3,
